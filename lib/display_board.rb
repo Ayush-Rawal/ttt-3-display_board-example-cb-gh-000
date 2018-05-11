@@ -10,3 +10,4 @@ def display_board
   print_dashes
   puts board.join("|")
 end
+display_board
