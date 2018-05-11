@@ -4,9 +4,9 @@ def print_dashes
   puts "-"*11
 end
 def display_board
-  puts board.join("")
+  puts board.join("|")
   print_dashes
-  puts board.join("")
+  puts board.join("|")
   print_dashes
-  puts board.join("")
+  puts board.join("|")
 end
